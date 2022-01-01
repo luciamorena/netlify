@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .container {
+            background-color: #333;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 250px;
+            height: 150px;
+            background-color: #efefef;
+            font-size: 2rem;
+            color: black;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box:hover {
+            background-color: chartreuse;
+        }
+
+    </style>
 </head>
-<body>
-    NETLIFY
+<body class='container'>
+    <div class='box'>NETLIFY</div>
 </body>
 </html>
